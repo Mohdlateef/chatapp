@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box;
+    width: 100vw;
+    height: 10vh; */
+}
+#form {
+  width: 100%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.chatroom-container {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  /* padding:10px; */
+  overflow: hidden;
+}
+.chatroom-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+
+  box-sizing: border-box;
+  padding: 0.75rem;
+  background-color: black;
+  color: white;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  height: 87vh;
+  background-color: rgba(0, 255, 0, 0.2);
+}
+.message {
+  padding: 0.8rem;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #e3ffcf;
+  width: fit-content;
+  border-radius: 14px;
+  font-weight: 500;
+}
+.sent {
+  align-self: flex-end;
+  padding-right: 20px;
+}
